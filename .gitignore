@@ -1,0 +1,42 @@
+# Environnement virtuel
+venv/
+env/
+
+# Cache et fichiers temporaires
+__pycache__/
+.cache/
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+.fusebox/
+
+# Éditeurs et IDE
+.vscode/
+.idea/
+
+# Serverless
+.serverless/
+
+# DynamoDB Local
+.dynamodb/
+
+# Node et npm
+node_modules/
+build/
+
+# Django
+*.sqlite3
+/media/
+/staticfiles/
+
+# OS-specific
+.DS_Store
+Thumbs.db
+Thumbs.db~
+
+# Migrations
+*/migrations/*
+
+# Logs
+logs
